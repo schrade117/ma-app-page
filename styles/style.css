@@ -1,0 +1,25 @@
+.helpInfo {
+    display: block;
+    padding: 30px 30px 30px 30px;
+    float: right;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    padding-top: inherit;
+    padding-left: 250px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.downloadButton {
+    display: inline-block;
+    margin: 0 auto;
+    padding-left: 550px;
+}
