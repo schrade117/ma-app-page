@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-   
-   <link rel = "stylesheet" type = "text/css" href = "styles/style.css">
-   
+   <link rel="stylesheet" type="text/css" href="styles/style.css">
    <title>Download the MA App</title>   
-   <header class="navBar">
+  </head>
+  
+  <body>
+   <header id="navbar">
     <ul>
      <div class="helpInfo">
        <a href="http://musicaficionado.com/legal.html" target="_blank"><button>About Us</button></a>
@@ -13,27 +14,41 @@
        <a href="mailto:support@musicaficionado.com"><button>Support</button></a>
      </div>
     </ul>
-    <img class= "logo" src="https://musicaficionado.com/qa-5/images/MAMastheadLogo3-Inverted.png">
+    <a href="https://www.musicaficionado.com"><img class= "logo" src="https://musicaficionado.com/qa-5/images/MAMastheadLogo3-Inverted.png"></a>
    </header>
    </div>  
-  </head>
-  
-  <body>
+   <div class="mac" id= "downloadBox">
     <h2>Download For Mac OSX</h2>
-     <div class="downloadButton">
+      <center><img src="http://cdn.osxdaily.com/wp-content/uploads/2009/02/finder.png"></center>
+     <div id="downloadButton">
         <button>Download</button>
      </div>
+   </div>  
+   <div class="windows" id= "downloadBox"> 
     <h2>Download For Windows</h2>
-     <div class="downloadButton">
+      <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Windows_logo_-_2002%E2%80%932012_%28Multicolored%29.svg/1165px-Windows_logo_-_2002%E2%80%932012_%28Multicolored%29.svg.png"></center>
+     <div id="downloadButton">
         <button>Download</button>
     </div>
+   </div>
+   <div class="ios" id= "downloadBox">
      <h2>Download For iOS</h2>
-     <div class="downloadButton">
-        <button>Download</button>
+      <center><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/IOS_logo.svg/300px-IOS_logo.svg.png"></center>
+      <div id="downloadButton">
+        <a href="https://itunes.apple.com/us/app/music-aficionado/id597517748?mt=8"><button>Download</button></a>
+      </div>
     </div>
+   <div class="android" id= "downloadBox">
      <h2>Download For Android</h2>
-      <div class="downloadButton">
+      <center><img src="https://kilimanjaro-consulting.com.au/wp-content/uploads/2017/04/android-logo-transparent-background.png"></center>
+      <div id="downloadButton">
         <button>Download</button>
       </div>
+   </div>
+    <footer><p class="copyrightNotice">© 2017 Music Aficionado Inc.
+Music Aficionado, Inc., 22287 Mulholland Hwy, #192, Calabasas, CA</p></footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>   
   </body>
 </html>
